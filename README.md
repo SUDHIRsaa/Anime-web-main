@@ -15,28 +15,25 @@ Architecture
 
 Cloud Provider
 
-Amazon Web Services (AWS)
-•	EC2
-•	VPC
-•	Security Groups
+- Amazon Web Services (AWS)
+- EC2
+- VPC
+- Security Groups
 
 Tools & Technologies
-•  React.js
-•  Jenkins
-•  Docker
-•  Terraform
-•  Trivy
-•  AWS
-•  GitHub
-
-
+- React.js
+- Jenkins
+- Docker
+- Terraform
+- Trivy
+- AWS
+- GitHub
 
 Before & After Security Report
 Initial (Failing)
-•	Insecure Terraform configuration
-•	Trivy detects misconfigurations
-•	Jenkins pipeline fails
-
+- Insecure Terraform configuration
+- Trivy detects misconfigurations
+- Jenkins pipeline fails
 
 
 
