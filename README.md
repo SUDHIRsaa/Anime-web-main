@@ -40,7 +40,8 @@ Initial (Failing)
 
 
 
-📸 screenshots/Trivy_Failed_Security_Scan.png
+![Travy failed security config](https://github.com/user-attachments/assets/f292cdd2-2b48-4470-8907-aa2cad12a3f0)
+
 
 Final (Passing)
 •  Secure Terraform configuration
@@ -49,19 +50,21 @@ Final (Passing)
 
 
 
-📸 screenshots/Trivy_Passed_Security_Scan.png
+![Successful creation](https://github.com/user-attachments/assets/9b581623-a085-4515-9d34-f5e71757f496)
+
+
 
 Screenshots
 
-screenshots/Jenkins_Pipeline_Success.png
+![App on Public Ip](https://github.com/user-attachments/assets/e5240d6f-edb5-45aa-bb6f-942e8efa24e4)
 
-screenshots/App_Running_On_Public_IP.png
+![AWS console in cmd](https://github.com/user-attachments/assets/42995b26-8322-4eba-8356-5a146e085cc9)
 
-screenshots/AWS_EC2_Instance.png
+![Running Terraform to intialize AWS](https://github.com/user-attachments/assets/5ffc3e7c-af61-4ce1-9761-383368fbcb7a)
 
-screenshots/Terraform_EC2_Creation.png
 
-screenshots/AWS_CLI_Configuration.png
+![Succesfully created AWS EC2](https://github.com/user-attachments/assets/e344476b-e405-4e4c-8e9c-ce15ccbb5c69)
+![AWS EC2 Instance](https://github.com/user-attachments/assets/2674d739-e51f-46e0-95da-c6c57ecd01ef)
 
 Outcome
 
