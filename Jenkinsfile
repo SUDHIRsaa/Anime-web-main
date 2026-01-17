@@ -17,8 +17,13 @@ pipeline {
 
         stage('Terraform Plan') {
             steps {
-                bat 'cd terraform && terraform init'
-                bat 'cd terraform && terraform plan -var="key_name=anime-key"'
+                withCredentials([[
+                    $class: 'AmazonWebServicesCredentialsBinding',
+                    credentialsId: 'aws-creds'
+                ]]) {
+                    bat 'cd terraform && terraform init'
+                    bat 'cd terraform && terraform plan -var="key_name=anime-key"'
+                }
             }
         }
     }
