@@ -21,13 +21,14 @@ resource "aws_security_group" "anime_sg" {
   }
 
   # Restrict outbound traffic to HTTPS only
-  egress {
-    description = "Allow outbound HTTPS only"
-    from_port   = 443
-    to_port     = 443
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
+ egress {
+  description = "Allow outbound HTTPS traffic only for application APIs"
+  from_port   = 443
+  to_port     = 443
+  protocol    = "tcp"
+  cidr_blocks = ["0.0.0.0/0"]
+}
+
 }
 
 resource "aws_instance" "anime_web" {
