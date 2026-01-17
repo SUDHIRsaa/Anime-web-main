@@ -8,7 +8,7 @@ Architecture
 -	React Anime Web Application
 -	Docker image creation
 -Jenkins CI/CD Pipeline
--Trivy security scan 
+-Trivy security scan
 -Terraform for AWS infrastructure
 -Deployment on AWS EC2
 
