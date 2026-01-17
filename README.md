@@ -6,7 +6,7 @@ Security issues are intentionally introduced, detected using Trivy.
 
 Architecture
 -	React Anime Web Application
--Docker image creation
+-	Docker image creation
 -Jenkins CI/CD Pipeline
 -Trivy security scan 
 -Terraform for AWS infrastructure
