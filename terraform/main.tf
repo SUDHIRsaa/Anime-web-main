@@ -26,8 +26,7 @@ resource "aws_security_group" "anime_sg" {
   from_port   = 0
   to_port     = 0
   protocol    = "-1"
-  
-  cidr_blocks = ["0.0.0.0/0"]
+  cidr_blocks = ["10.0.0.0/16"]
 }
 
 }
