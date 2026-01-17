@@ -1,4 +1,5 @@
-Anime Web
+Anime Web -
+http://13.201.75.68/
 Project Overview  for a React-based Anime web application.
 The pipeline integrates security scanning, containerization, infrastructure provisioning, and cloud deployment.
 
