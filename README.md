@@ -5,12 +5,12 @@ The pipeline integrates security scanning, containerization, infrastructure prov
 Security issues are intentionally introduced, detected using Trivy.
 
 Architecture
--	React Anime Web Application
--	Docker image creation
--Jenkins CI/CD Pipeline
--Trivy security scan
--Terraform for AWS infrastructure
--Deployment on AWS EC2
+- React Anime Web Application
+- Docker image creation
+- Jenkins CI/CD Pipeline
+- Trivy security scan
+- Terraform for AWS infrastructure
+- Deployment on AWS EC2
 
 
 Cloud Provider
