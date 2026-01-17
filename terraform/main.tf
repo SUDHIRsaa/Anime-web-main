@@ -22,10 +22,11 @@ resource "aws_security_group" "anime_sg" {
 
   # Restrict outbound traffic to HTTPS only
  egress {
-  description = "Allow outbound HTTPS traffic only for application APIs"
-  from_port   = 443
-  to_port     = 443
-  protocol    = "tcp"
+  description = "Allow outbound HTTPS traffic only within VPC"
+  from_port   = 0
+  to_port     = 0
+  protocol    = "-1"
+  
   cidr_blocks = ["0.0.0.0/0"]
 }
 
